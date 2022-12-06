@@ -153,6 +153,9 @@ nav .icon-burger .line {
   span{
     color: #9a7b4f;
   }
+  .stroke-span{
+	color:#212121;
+  }
   .txt p{
     color: #fff;
     line-height: 30px;
