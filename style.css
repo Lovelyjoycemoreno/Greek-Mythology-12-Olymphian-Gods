@@ -2,11 +2,11 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-	font-family: 'Poppins', san-serif;
+	font-family: 'Poppins', sans-serif;
 }
 body{
 	background: #0f0f0f;
-	overflow: hidden;
+	
 }
 .content{
 	width: 100%;
@@ -147,14 +147,14 @@ nav .icon-burger .line {
 	}
 }
 #home{
-    display: flex;
-    flex-direction: column;
+	display: flex;
+	flex-direction: column;
 }
 #home::before{
-    content:"";
-    position: absolute;
-    top: 0;
-    right: 0;
+	content:"";
+	position: absolute;
+	top: 0;
+	right: 0;
 }
 .txt{
     margin-left: 8%;
@@ -164,13 +164,13 @@ nav .icon-burger .line {
     font-size: 40px;
     color: #EFDECD;
     margin-bottom: 15px;
-  }
+  }	
   
   span{
     color: #9a7b4f;
   }
   .stroke-span{
-	color:#9a7b4f;
+	color:#212121;
   }
   .txt p{
     color: #fff;
@@ -194,7 +194,6 @@ nav .icon-burger .line {
     color: black;
     transform:scale(1,1)
   }
-  
   .images{
     width: 45%;
     height: 80;
@@ -211,24 +210,24 @@ nav .icon-burger .line {
     position:absolute; 
 	object-fit: scale-down;
   }
-@media only screen and (max-width: 900px){
+  @media only screen and (max-width: 900px) {
 	.txt{
-	flex-direction: column;
-	align-items: center;
-	width: 70%;
+		flex-direction: column;
+		align-items: center;
+		width: 70%;
 	}
 	.txt h1{
-	padding-top: 4rem;
-	width: 100%;
-	font-size:35px;
+		padding-top: 4rem;
+		width: 100%;
+		font-size: 35px;
 	}
 	.txt p{
-	font-sixe: 12px;
-	width: 100%;
+		font-size: 12px;
+		width: 100%;
 	}
 	.stat{
-	width: 70%;
-	font-size: 10px;
+		width: 70%;
+		font-size: 10px;
 	}
 }
 #intro{
