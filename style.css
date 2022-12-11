@@ -310,3 +310,13 @@ nav .icon-burger .line {
     padding-bottom: 100px;
 	
 }
+.container .heading{
+	margin-top: 100px;
+    text-align: center;
+    padding-bottom: 50px;
+    color:#fff;
+    text-shadow: 0 5px 10px rgba(0,0,0,.2);
+    font-size: 50px;
+	padding-top: 50px;
+
+}
