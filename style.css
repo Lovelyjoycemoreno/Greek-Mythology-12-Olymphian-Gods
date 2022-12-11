@@ -310,6 +310,7 @@ nav .icon-burger .line {
     padding-bottom: 100px;
 	
 }
+
 .container .heading{
 	margin-top: 100px;
     text-align: center;
@@ -320,36 +321,52 @@ nav .icon-burger .line {
 	padding-top: 50px;
 
 }
+
 .container .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
     gap:15px;
 }
+
+.container .box-container .box{
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    border-radius: 5px;
+    background: #fff;
+    text-align: center;
+    padding:30px 20px;
+}
+
 .container .box-container .box img{
     height: 300px;
 }
+
 .container .box-container .box h3{
     color:#444;
     font-size: 22px;
     padding:10px 0;
 }
+
 .container .box-container .box p{
     color:#777;
     font-size: 15px;
     line-height: 1.8;
 }
+
 .container .box-container .box .btn{
     margin-top: 10px;
     display: inline-block;
-    background:#333;
+    background: white;
     color:#fff;
     font-size: 17px;
     border-radius: 5px;
     padding: 8px 25px;
 	bottom: 15px;
 }
+
 .container .box-container .box .btn:hover{
     letter-spacing: 1px;
+	background-color: Black;
+	color: white;
 }
 
 .container .box-container .box:hover{
