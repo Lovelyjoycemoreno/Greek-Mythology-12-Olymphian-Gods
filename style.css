@@ -4,6 +4,9 @@
 	box-sizing: border-box;
 	font-family: 'Poppins', san-serif;
 }
+.body{
+	background: #0f0f0f;	
+}
 .content{
 	width: 100%;
 	height: 100vh;
