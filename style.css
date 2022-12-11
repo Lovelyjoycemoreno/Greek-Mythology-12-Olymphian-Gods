@@ -6,13 +6,12 @@
 }
 body{
 	background: #0f0f0f;
-	
 }
 .content{
 	width: 100%;
 	height: 100vh;
 	padding: 25px;
-	background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("Olympus.jpg");
+	background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("images/Olympus.jpg");
 	background-repeat: no-repeat;
 	background-size: auto;
   }
@@ -195,8 +194,8 @@ nav .icon-burger .line {
     transform:scale(1,1)
   }
   .images{
-    width: 45%;
-    height: 80;
+    width: 20%;
+    height: 80vh;
     bottom: 0;
     right: 100px;
   }
@@ -204,7 +203,7 @@ nav .icon-burger .line {
   .images img{
     transition: bottom 1s, left 1s;
     transform: translateX(-50%);
-    left: 80%;
+    left: 70%;
     bottom: 0;
     height: 70%;
     position:absolute; 
@@ -226,14 +225,13 @@ nav .icon-burger .line {
 		width: 100%;
 	}
 	.stat{
-		width: 70%;
+		width: 50%;
 		font-size: 10px;
 	}
 }
 #intro{
 	display: flex;
 	box-sizing: border-box;
-	
 	flex-direction: column;
 	margin-bottom: 20px;
 
@@ -251,17 +249,16 @@ nav .icon-burger .line {
 	justify-content: space-evenly;
 	background: #0f0f0f;
 	height: 100vh;
-	
 }
 .wrapper-img{
-	width: 250px;
-	height: 250px;
-	margin: 0 3rem;
+	width: 300px;
+	height: 300px;
+	margin: 0 2rem;
 }
 .wrapper-img img{
 	height: 110%;
-	width: 180%;
-	margin-top: 100px;
+	width: 130%;
+	margin-top: 120px;
 	
 }
 .wrapper-info{
@@ -272,8 +269,8 @@ nav .icon-burger .line {
 	padding-left: 2rem;
 	margin: 0 3rem;
 }
-.wrapper-info h3{
-	font-size: 25px;
+.wrapper-info h1{
+	font-size: 50px;
 	margin-top: 100px;
 }
 .wrapper-info p{
@@ -289,7 +286,7 @@ nav .icon-burger .line {
 	}
 	.wrapper-img{
 		width: 80%;
-		margin-right: 52%;
+		margin-right: 35%;
 		
 		
 	}
@@ -301,7 +298,7 @@ nav .icon-burger .line {
 		padding: 1rem;
 		margin-top: 2rem;
 	}
-	.wrapper-info h3{
+	.wrapper-info h1{
 		width: 40%;
 	}
     .wrapper-info p{
@@ -316,13 +313,13 @@ nav .icon-burger .line {
 }
 
 .container .heading{
-    margin-top: 100px;
+	margin-top: 80px;
     text-align: center;
     padding-bottom: 50px;
     color:#fff;
     text-shadow: 0 5px 10px rgba(0,0,0,.2);
     font-size: 50px;
-    padding-top: 50px;
+	padding-top: 50px;
 
 }
 
@@ -335,7 +332,7 @@ nav .icon-burger .line {
 .container .box-container .box{
     box-shadow: 0 5px 10px rgba(0,0,0,.2);
     border-radius: 5px;
-    background: #fff;
+    background: rgb(0, 0, 0);
     text-align: center;
     padding:30px 20px;
 }
@@ -345,13 +342,13 @@ nav .icon-burger .line {
 }
 
 .container .box-container .box h3{
-    color:#444;
+    color:#fff;
     font-size: 22px;
     padding:10px 0;
 }
 
 .container .box-container .box p{
-    color:#777;
+    color: #fff;
     font-size: 15px;
     line-height: 1.8;
 }
@@ -359,18 +356,17 @@ nav .icon-burger .line {
 .container .box-container .box .btn{
     margin-top: 10px;
     display: inline-block;
-    background: white;
+    background:#333;
     color:#fff;
     font-size: 17px;
+	font-weight: bold;
     border-radius: 5px;
     padding: 8px 25px;
-    bottom: 15px;
+	bottom: 15px;
 }
 
 .container .box-container .box .btn:hover{
     letter-spacing: 1px;
-    background-color: Black;
-    color: white;
 }
 
 .container .box-container .box:hover{
@@ -380,15 +376,32 @@ nav .icon-burger .line {
 
 @media (max-width:768px){
     .container{
-	    padding:20px;
+        padding:20px;
     }
 }
 
-.about{
+.about-sec{
 	width: 100%;
 	height: 100vh;
 	padding: 25px;
-	background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("wall.jpg");
+	background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("Olympus.jpg");
+	background-repeat: no-repeat;
+	background-size: auto;
+  }
+.about-sec .about-txt{
+	text-align: center;
+    margin-top: 13%;
+  }
+.about-sec .about-txt h1{
+    font-size: 40px;
+    color: black;
+    margin-bottom: 15px;
+  }	
+  .about{
+	width: 100%;
+	height: 100vh;
+	padding: 25px;
+	background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("images/wall.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
   }
@@ -401,6 +414,14 @@ nav .icon-burger .line {
   margin-top:10%;
   color: white;
 }
+.about h2{
+	font-family: 'times new roman';
+	font-size: 45px;
+	margin-bottom: 60px;
+	text-align: center;
+	margin-top:5%;
+	color: white;
+  }
 
 .team{
   margin-top: 10%;
@@ -412,24 +433,24 @@ nav .icon-burger .line {
 }
 
 .team .team_member{
-  background: #fff;
+  background: rgb(85, 84, 84);
   margin: 5px;
   margin-bottom: 50px;
   width: 300px;
   padding: 20px;
   line-height: 20px;
-  color: #8e8b8b;  
+  color: #d1cccc;  
   position: relative;
 }
 
 .team .team_member h3{
-  color: rgb(99, 92, 32);
+  color: rgb(214, 208, 208);
   font-size: 26px;
   margin-top: 50px;
 }
 
 .team .team_member p.role{
-  color: #ccc;
+  color: rgb(196, 188, 188);
   margin: 12px 0;
   font-size: 12px;
   text-transform: uppercase;
