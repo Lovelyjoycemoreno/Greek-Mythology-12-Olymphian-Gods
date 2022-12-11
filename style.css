@@ -333,5 +333,10 @@ nav .icon-burger .line {
     font-size: 22px;
     padding:10px 0;
 }
+.container .box-container .box p{
+    color:#777;
+    font-size: 15px;
+    line-height: 1.8;
+}
 
 
