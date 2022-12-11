@@ -218,7 +218,14 @@ nav .icon-burger .line {
 	width: 100%;
 	font-size:35px;
 	}
-
+	.txt p{
+	font-sixe: 12px;
+	width: 100%;
+	}
+	.stat{
+	width: 70%;
+	font-size: 10px;
+	}
 }
   .about-sec{
 	display: flex;
