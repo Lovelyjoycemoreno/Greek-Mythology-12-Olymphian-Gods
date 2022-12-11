@@ -227,6 +227,20 @@ nav .icon-burger .line {
 	font-size: 10px;
 	}
 }
+#intro{
+	display: flex;
+	box-sizing: border-box;
+	
+	flex-direction: column;
+	margin-bottom: 20px;
+
+}
+#intro::before{
+	content:"";
+	position: absolute;
+	top: 0;
+	right: 0;
+}
   .about-sec{
 	display: flex;
 	padding: 4rem 0;
