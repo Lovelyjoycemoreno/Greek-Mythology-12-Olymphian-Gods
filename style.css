@@ -5,7 +5,8 @@
 	font-family: 'Poppins', san-serif;
 }
 body{
-	background: #0f0f0f;	
+	background: #0f0f0f;
+	overflow: hidden;
 }
 .content{
 	width: 100%;
