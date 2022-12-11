@@ -145,11 +145,11 @@ nav .icon-burger .line {
 		opacity: 0;
 	}
 }
-.home{
+#home{
     display: flex;
     flex-direction: column;
 }
-.home::before{
+#home::before{
     content:"";
     position: absolute;
     top: 0;
