@@ -213,6 +213,11 @@ nav .icon-burger .line {
 	align-items: center;
 	width: 70%;
 	}
+	.txt h1{
+	padding-top: 2rem;
+	width: 100%;
+	font-size:35px;
+	}
 
 }
   .about-sec{
