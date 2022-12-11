@@ -387,7 +387,7 @@ nav .icon-burger .line {
 	width: 100%;
 	height: 100vh;
 	padding: 25px;
-	background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("god.jpg");
+	background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("wall.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
   }
